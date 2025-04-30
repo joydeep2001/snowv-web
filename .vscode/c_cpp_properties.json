@@ -1,0 +1,18 @@
+{
+    "configurations": [
+      {
+        "name": "Linux",
+        "includePath": [
+          "${workspaceFolder}/**",
+          "/home/joy/emsdk/upstream/emscripten/cache/sysroot/include"
+        ],
+        "defines": ["__EMSCRIPTEN__"],
+        "compilerPath": "/home/joy/emsdk/upstream/emscripten/emcc",
+        "cStandard": "c11",
+        "cppStandard": "c++17",
+        "intelliSenseMode": "linux-gcc-x64"
+      }
+    ],
+    "version": 4
+  }
+  
