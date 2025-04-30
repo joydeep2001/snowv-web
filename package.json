@@ -1,6 +1,10 @@
 {
   "name": "snowv-web",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joydeep2001/snowv-web.git"
+  },
   "description": "",
   "type": "module",
   "main": "dist/index.js",
