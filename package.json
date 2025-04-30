@@ -8,7 +8,7 @@
   "description": "",
   "type": "module",
   "main": "dist/index.js",
-  "types": "src/index.d.ts",
+  "types": "src/lib/index.d.ts",
   "files": [
     "dist",
     "src/lib/index.d.ts"
