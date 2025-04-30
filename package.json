@@ -16,7 +16,18 @@
   "scripts": {
     "build": "vite build"
   },
-  "keywords": [],
+  "keywords": [
+    "snowv",
+    "wasm",
+    "webassembly",
+    "crypto",
+    "cipher",
+    "stream-cipher",
+    "simd",
+    "aes",
+    "javascript",
+    "encryption"
+  ],
   "author": "Joydeep Bhattacharjee",
   "license": "MIT",
   "dependencies": {
