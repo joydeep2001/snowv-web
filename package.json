@@ -1,6 +1,6 @@
 {
   "name": "snowv-web",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/joydeep2001/snowv-web.git"
@@ -11,7 +11,7 @@
   "types": "src/index.d.ts",
   "files": [
     "dist",
-    "src/index.d.ts"
+    "src/lib/index.d.ts"
   ],
   "scripts": {
     "build": "vite build"
