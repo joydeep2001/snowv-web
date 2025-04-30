@@ -1,3 +1,5 @@
+import wasmUrl from './snowv-simd.wasm?url';
+
 let wasmExports;
 let memory;
 let HEAP8;
@@ -7,8 +9,8 @@ export async function init() {
   if (isInitialized) return;
   
   try {
-    const wasmPath = new URL('./snowv-simd.wasm', import.meta.url);
-    const response = await fetch(wasmPath);
+    
+    const response = await fetch(wasmUrl);
     const buffer = await response.arrayBuffer();
     
     const wasi = {
